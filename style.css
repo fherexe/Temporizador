@@ -25,6 +25,7 @@ main {
     order: 2;
     gap: 5px;
     font-family: gameboy, sans-serif;
+    padding: 3em;
 }
 
 h1 span {
@@ -53,10 +54,6 @@ h1 span {
     flex-direction: column;
     gap: 10px;
 }
-
-
-
-
 
 .cronometro {
     margin-top: 2%;
@@ -127,5 +124,16 @@ button {
     filter: brightness(150%);
 }
 
+@media (max-width:840px) {
+    main {
+        flex-direction: column;
 
+    }
+
+    .cronometro {
+        order: 2;
+        margin-top:0;
+        margin-bottom: 10%;
+    }
+}
 
