@@ -109,21 +109,37 @@ h1 span {
     background-image: url(https://i.redd.it/8abq8d54z1e31.gif);
     background-size: 450px;
     background-repeat: none;
-    padding-top: 40px;
     border: 14px solid black;
     border-radius: 20px 20px 60px 20px;
+    object-fit:content;
+}
+
+.somador {
+    display: flex;
+    flex-direction: column;
+    background: #ffffffea;
+    margin: 10px 10px;
+    width: 50%;
+    height:8em;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#resp {
+    padding-top: 10px;
 }
 
 .display label {
     font-size: 20px;
     padding-left: 10px;
-
 }
 
 .display input {
+    text-align: center;
     border: 2px solid var(--color1);
-    width: 140px;
-    margin-left: 10px;
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
 }
 
 .display span {
