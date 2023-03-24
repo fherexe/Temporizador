@@ -15,6 +15,10 @@
     padding: 0;
 }
 
+body {
+    background-image: url();
+}
+
 main {
     display: flex;
     align-items: center;
@@ -76,7 +80,18 @@ h1 span {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 60px 0;
     border:3px solid black;
+}
 
+.bg-sup {
+    margin-top:14%;
+    background-image: url(img/Sup.png);
+    background-size: cover;
+    height: 21.2em;
+    width: 20em;
+    background-position:center;
+    position:absolute;
+    z-index:0;
+    border-radius: 20px 20px 60px 20px;
 }
 
 .display {
@@ -91,8 +106,8 @@ h1 span {
     height:10em;
     width:11em;
     font-size: 27px;
-    background-image: url(https://media.tenor.com/Vr2vHhPRUHMAAAAd/surf-surfing.gif);
-    background-size: 404px;
+    background-image: url(https://i.redd.it/8abq8d54z1e31.gif);
+    background-size: 450px;
     background-repeat: none;
     padding-top: 40px;
     border: 14px solid black;
@@ -130,6 +145,7 @@ h1 span {
     background: #0000001e;
     margin-top: 15px;
     margin-right: 90px;
+    z-index: 0;
 }
 
 

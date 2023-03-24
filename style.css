@@ -78,6 +78,18 @@ h1 span {
     border:3px solid black;
 }
 
+.bg-sup {
+    margin-top:14%;
+    background-image: url(img/Sup.png);
+    background-size: cover;
+    height: 21.2em;
+    width: 20em;
+    background-position:center;
+    position:absolute;
+    z-index:0;
+    border-radius: 20px 20px 60px 20px;
+}
+
 .display {
     font-family: gameboy, sans-serif;
     background:#84acf5;
@@ -112,6 +124,7 @@ h1 span {
     background: #0000001e;
     margin-top: 15px;
     margin-right: 90px;
+    z-index: 0;
 }
 
 
@@ -130,7 +143,7 @@ button {
     color: #969696;
 }
 
-.cronometro button:hover {
+.gameboy button:hover {
     filter: brightness(150%);
 }
 
@@ -146,7 +159,7 @@ button a {
 
     }
 
-    .cronometro {
+    .gameboy {
         order: 2;
         margin-top:0;
         margin-bottom: 10%;
