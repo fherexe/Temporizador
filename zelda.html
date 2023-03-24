@@ -34,11 +34,10 @@
         <div class="gameboy">
             <div class="bg-sup"></div>
             <div class="display">
-                <div class="calculator">
-    
-                   
-
-                    <span id="resultado"></span></p>
+                <div class="somador">
+                    <input type="number" name="valor1" id="valor1"> +
+                    <input type="number" name="valor2" id="valor2">
+                    <div id="resp">0</div>
                 </div>
             </div>
 
@@ -49,18 +48,22 @@
                     <button>X</button>
                 </div>
 
-                <button onclick="calcularImc()">A</button>
+                <button onclick="somar()">A</button>
             </div>
         </div>
     </main>
     
     <script>
-        function calcularImc() {
-            const peso = document.getElementById('peso').value;
-            const altura = document.getElementById('altura').value;
-            const imc = peso / (altura**2);
-            document.getElementById('resultado').textContent = imc.toFixed(2);
-        }
+        function somar() {
+        var v1 = window.document.getElementById('valor1');
+        var v2 = window.document.querySelector('input#valor2');
+        var resp = window.document.getElementById('resp');
+        
+        var n1 = Number(v1.value);
+        var n2 = Number(v2.value);
+        var resultado = n1 + n2;
+        resp.innerHTML = `${resultado}`; //placeholders
+    }
     </script>
    
 </body>
