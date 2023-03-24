@@ -29,7 +29,7 @@ main {
 }
 
 h1 span {
-    color: #c05959;
+    color: #fde400;;
 }
 
 .copy {
@@ -37,17 +37,17 @@ h1 span {
     font-weight: 500;   
 }
 
-.copy p {
-    margin: 10px 0 10px 0;
-    font-size: 18px;
-    border-bottom: 2px solid #c05959;
-    width: fit-content;
-}
-
 .copy a {
     font-weight: 600;
     text-decoration: none;
-    color: #c05959;
+    color: #fde400;;
+}
+
+.copy p {
+    margin: 10px 0 10px 0;
+    font-size: 18px;
+    border-bottom: 2px solid #fde400;
+    width: fit-content;
 }
 
 .tutorial {
@@ -72,12 +72,14 @@ h1 span {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 60px 0;
     border:3px solid black;
+
 }
 
 .display {
     font-family: gameboy, sans-serif;
     background:#84acf5;
-    color: #c05959;
+    color: #fde400;
+    text-shadow: 2px 0px 0px rgba(0, 0, 0, 0.637);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -86,13 +88,12 @@ h1 span {
     height:10em;
     width:11em;
     font-size: 27px;
-    background-image: url(https://www.superluigibros.com/images/super_mario_gifs.gif);
-    background-size: cover;
+    background-image: url(https://media.tenor.com/Vr2vHhPRUHMAAAAd/surf-surfing.gif);
+    background-size: 304px 260px;
+    background-repeat: none;
     padding-bottom: 22px;
     border: 14px solid black;
     border-radius: 20px 20px 60px 20px;
-    text-shadow: 2px 0px 0px rgba(0, 0, 0, 0.637);
-
 }
 
 .buttons {
@@ -132,6 +133,10 @@ button {
 button a {
     text-decoration: none;
     color: #969696;
+    object-fit: cover;
+    border: 2px solid red;
+    border-radius: 50%;
+    padding: 10px 10px 10px 10px;
 }
 
 
