@@ -96,6 +96,16 @@ h1 span {
     border-radius: 20px 20px 60px 20px;
 }
 
+.display label{
+    font-size: 14px;
+    padding-left: 10px;
+
+}
+
+.display input {
+    border: none;
+}
+
 .buttons {
     display: flex;
     flex-direction: column;
