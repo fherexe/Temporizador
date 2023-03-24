@@ -57,7 +57,7 @@ h1 span {
     gap: 10px;
 }
 
-.cronometro {
+.gameboy {
     margin-top: 2%;
     width: 330px;
     height: 35em;
@@ -79,32 +79,39 @@ h1 span {
     font-family: gameboy, sans-serif;
     background:#84acf5;
     color: #fde400;
-    text-shadow: 2px 0px 0px rgba(0, 0, 0, 0.637);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.767);
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
     position: relative;
     bottom: 3%;
     height:10em;
     width:11em;
     font-size: 27px;
     background-image: url(https://media.tenor.com/Vr2vHhPRUHMAAAAd/surf-surfing.gif);
-    background-size: 304px 260px;
+    background-size: 404px;
     background-repeat: none;
-    padding-bottom: 22px;
+    padding-top: 40px;
     border: 14px solid black;
     border-radius: 20px 20px 60px 20px;
 }
 
-.display label{
-    font-size: 14px;
+.display label {
+    font-size: 20px;
     padding-left: 10px;
 
 }
 
 .display input {
-    border: none;
+    border: 2px solid #fde400;
+    width: 140px;
+    margin-left: 10px;
 }
+
+.display span {
+    display: block;
+    padding-left: 10px;
+}
+
 
 .buttons {
     display: flex;
