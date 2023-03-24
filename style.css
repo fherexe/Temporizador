@@ -5,6 +5,10 @@
     src: url("early_gameboy/Early\ GameBoy.ttf")
 }
 
+:root {
+    --color1:#c05959;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -29,7 +33,7 @@ main {
 }
 
 h1 span {
-    color: #c05959;
+    color: var(--color1);
 }
 
 .copy {
@@ -40,14 +44,14 @@ h1 span {
 .copy p {
     margin: 10px 0 10px 0;
     font-size: 18px;
-    border-bottom: 2px solid #c05959;
+    border-bottom: 2px solid var(--color1);
     width: fit-content;
 }
 
 .copy a {
     font-weight: 600;
     text-decoration: none;
-    color: #c05959;
+    color:var(--color1);
 }
 
 .tutorial {
@@ -77,7 +81,7 @@ h1 span {
 .display {
     font-family: gameboy, sans-serif;
     background:#84acf5;
-    color: #c05959;
+    color: var(--color1);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -113,7 +117,8 @@ h1 span {
 
 .item1 {
     display: flex;
-    justify-content: space-around;    height:60px;
+    justify-content: space-around;    
+    height:60px;
     width:11.7em;
     align-items:center;
 }
