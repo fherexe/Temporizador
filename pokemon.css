@@ -50,7 +50,7 @@ h1 span {
 .copy p {
     margin: 10px 0 10px 0;
     font-size: 18px;
-    border-bottom: 2px solid var(--color1);
+    border-bottom: 3px solid var(--color1);
     width: fit-content;
 }
 
