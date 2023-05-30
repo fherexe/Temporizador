@@ -82,18 +82,6 @@ h1 span {
     border:3px solid black;
 }
 
-.bg-sup {
-    margin-top:14%;
-    background-image: url(img/Sup.png);
-    background-size: cover;
-    height: 21.2em;
-    width: 20em;
-    background-position:center;
-    position:absolute;
-    z-index:0;
-    border-radius: 20px 20px 60px 20px;
-}
-
 .display {
     font-family: gameboy, sans-serif;
     background:#84acf5;
